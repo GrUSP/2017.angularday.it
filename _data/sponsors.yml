@@ -5,31 +5,41 @@
 pdf: grusp_2017.pdf
 call_for_sponsor: true
 
+main:
+  price: € 10,000
+  offer:
+    - 1 dedicated session (30 mins max)
+    - Access to opt-in attendees list
+    - One direct email marketing campaign
+    - Your logo on conference rollups
+    - Your own rollups in two rooms
+    - Stand (table 2m x 1m)
+    - Your own flyer and/or gadget in folder
+    - 5 free tickets
+    - 5 tickets with 50% discount
+  max: 1
+  list:
+
 diamond:
   price: € 5,000
   offer:
-    - 1 dedicated technical session (30 mins max)
-    - Access to opt-in attendees list
-    - One direct email marketing campaign
+    - 1 dedicated session (30 mins max)
     - Your logo on conference website
     - Your logo on conference rollups
-    - Your own rollups in the main room
+    - Your own rollups in two rooms
     - Stand (table 2m x 1m)
     - Your own flyer and/or gadget in folder
     - 2 free tickets
     - 5 tickets with 20% discount
-  max: 1
+  max: 2
   list:
-    -
-      url:
-      image:
 
 platinum:
   price: € 3,000
   offer:
     - Your logo on conference website
     - Your logo on conference rollups
-    - Your own rollup in one room
+    - Your own rollup in one room (of your choice)
     - Stand (table 1m x 1m)
     - Your own flyer and/or gadget in folder
     - 1 free ticket
@@ -37,17 +47,8 @@ platinum:
   max: 4
   list:
     -
-      url:
-      image:
-    -
-      url:
-      image:
-    -
-      url:
-      image:
-    -
-      url:
-      image:
+      url: http://www.ideato.it/?utm_source=phpday
+      image: ideato.svg
 
 gold:
   price: € 1,000
@@ -60,11 +61,11 @@ gold:
   max: 8
   list:
     -
-      url: http://www.avanscoperta.it/
-      image: sponsor_avanscoperta.png
+      url: http://www.avanscoperta.it/?utm_source=phpday
+      image: avanscoperta.svg
     -
       url: http://www.madisoft.it/?utm_source=phpday
-      image: sponsor_madisoft.png
+      image: madisoft.svg
 
 silver:
   price: € 500
@@ -76,8 +77,11 @@ silver:
   max: 4
   list:
     -
-      url: http://www.neen.it/
-      image: sponsor_neen.png
+      url: http://www.neen.it/?utm_source=phpday
+      image: neen.svg
+    -
+      url: https://www.siteground.it/?utm_source=phpday
+      image: siteground.svg
 
 bronze:
   price: € 300
