@@ -5,20 +5,20 @@
 pdf: grusp_2017.pdf
 call_for_sponsor: true
 
-main:
-  price: € 10,000
-  offer:
-    - 1 dedicated session (30 mins max)
-    - Access to opt-in attendees list
-    - One direct email marketing campaign
-    - Your logo on conference rollups
-    - Your own rollups in two rooms
-    - Stand (table 2m x 1m)
-    - Your own flyer and/or gadget in folder
-    - 5 free tickets
-    - 5 tickets with 50% discount
-  max: 1
-  list:
+#main:
+#  price: € 10,000
+#  offer:
+#    - 1 dedicated session (30 mins max)
+#    - Access to opt-in attendees list
+#    - One direct email marketing campaign
+#    - Your logo on conference rollups
+#    - Your own rollups in two rooms
+#    - Stand (table 2m x 1m)
+#    - Your own flyer and/or gadget in folder
+#    - 5 free tickets
+#    - 5 tickets with 50% discount
+#  max: 1
+#  list:
 
 diamond:
   price: € 5,000
@@ -46,9 +46,9 @@ platinum:
     - 5 tickets with 15% discount
   max: 4
   list:
-    -
-      url: http://www.ideato.it/?utm_source=phpday
-      image: ideato.svg
+#    -
+#      url: http://www.ideato.it/?utm_source=phpday
+#      image: ideato.svg
 
 gold:
   price: € 1,000
@@ -59,13 +59,13 @@ gold:
     - Your own flyer and/or gadget in folder
     - 3 tickets with 15% discount
   max: 8
-  list:
-    -
-      url: http://www.avanscoperta.it/?utm_source=phpday
-      image: avanscoperta.svg
-    -
-      url: http://www.madisoft.it/?utm_source=phpday
-      image: madisoft.svg
+#  list:
+#     -
+#       url: http://www.avanscoperta.it/?utm_source=phpday
+#       image: avanscoperta.svg
+#     -
+#       url: http://www.madisoft.it/?utm_source=phpday
+#       image: madisoft.svg
 
 silver:
   price: € 500
@@ -75,13 +75,13 @@ silver:
     - Your own flyer and/or gadget in folder (provided by you)
     - 3 tickets with 10% discount
   max: 4
-  list:
-    -
-      url: http://www.neen.it/?utm_source=phpday
-      image: neen.svg
-    -
-      url: https://www.siteground.it/?utm_source=phpday
-      image: siteground.svg
+#  list:
+#     -
+#       url: http://www.neen.it/?utm_source=phpday
+#       image: neen.svg
+#     -
+#       url: https://www.siteground.it/?utm_source=phpday
+#       image: siteground.svg
 
 bronze:
   price: € 300
@@ -89,3 +89,4 @@ bronze:
     - Your logo on conference website
     - 2 tickets with 10% discount
   max: 8
+ # list:

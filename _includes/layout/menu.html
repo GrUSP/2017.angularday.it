@@ -15,13 +15,13 @@
       </a>
       {% if site.data.tickets.sold_out %}
         <div class="menu__register menu__register--sold-out">
-          sold out
+          sold-out
         </div>
       {% else %}
         <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__register">
-          Get<br>
-          tickets<br>
-          now
+          Acquista<br>
+          ora il tuo<br>
+          biglietto
         </a>
       {% endif %}
     </div>
@@ -36,47 +36,59 @@
       <ul class="menu__list">
         {% if site.data.conference.schedule_available %}
           <li class="menu__item">
-            <a href="{{ site.baseurl }}//schedule.html" class="menu__button">
-              Schedule
+            <a href="{{ site.baseurl }}/schedule.html" class="menu__button">
+              Programma
             </a>
           </li>
         {% endif %}
         <li class="menu__item">
           {% if site.data.tickets.sold_out %}
             <span class="menu__button menu__button--sold-out">
-              Tickets
+              Biglietti
             </span>
           {% else %}
             <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button">
-              Tickets
+              Biglietti
             </a>
           {% endif %}
         </li>
+        <!--
         <li class="menu__item">
-          <a href="{{ site.baseurl }}//sponsor.html" class="menu__button">
+          <a href="{{ site.baseurl }}/sponsor.html" class="menu__button">
             Sponsor
           </a>
         </li>
+        -->
         {% if site.data.conference.talks_available %}
           <li class="menu__item">
-            <a href="{{ site.baseurl }}//talks.html" class="menu__button">
-              Talks
+            <a href="{{ site.baseurl }}/talks.html" class="menu__button">
+              Talk
             </a>
           </li>
         {% endif %}
         <li class="menu__item">
-          <a href="{{ site.baseurl }}//venue.html" class="menu__button">
-            Venue
+          <a href="{{ site.baseurl }}/#venue" class="menu__button">
+            Dove siamo
           </a>
         </li>
         <li class="menu__item">
-          <a href="{{ site.baseurl }}//#newsletter" class="menu__button">
+          <a href="{{ site.baseurl }}/#newsletter" class="menu__button">
             Newsletter
           </a>
         </li>
         <li class="menu__item">
-          <a href="http://{{ site.data.conference.year }}.jsday.it" class="menu__button">
-            JSday
+          <a href="http://{{ site.data.conference.year }}.jsday.it" target="_blank" class="menu__button">
+            jsDay
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="http://{{ site.data.conference.year }}.reactjsday.it" target="_blank" class="menu__button">
+            ReactJS day
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="http://{{ site.data.conference.year }}.universaljsday.com" target="_blank" class="menu__button">
+            UniversalJS Day
           </a>
         </li>
       </ul>
