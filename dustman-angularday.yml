@@ -23,12 +23,12 @@ css:
   themes:
     -
       autoprefixer: true
-      compile: _frontend/frontsize/angularjsday-2017/import.scss
+      compile: _frontend/frontsize/angularday-2017/import.scss
       csslint: false
-      file: angularjsday.css
-      images: _frontend/frontsize/angularjsday-2017/img/**/*.*
+      file: angularday.css
+      images: _frontend/frontsize/angularday-2017/img/**/*.*
       merge: true
-      name: angularjsday
+      name: angularday
       path: _frontend/temp/
       stylestats: false
     -
