@@ -38,16 +38,16 @@
           </a>
           -->
 
-          {% if site.data.tickets.sold_out %}
-            <div class="button button--sold-out">
-              sold out
-            </div>
-          {% else %}
-            <!--
-            <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">
-              Biglietti
-            </a>
-            -->
+          {% if site.data.tickets.available %}
+            {% if site.data.tickets.sold_out %}
+              <div class="button button--sold-out">
+                sold out
+              </div>
+            {% else %}
+              <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">
+                Biglietti
+              </a>
+            {% endif %}
           {% endif %}
 
         </div>

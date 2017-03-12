@@ -13,16 +13,18 @@
       <a href="{{ site.data.venue.map }}" target="_blank" class="menu__where-when">
         {{ site.data.conference.where_when }}
       </a>
-      {% if site.data.tickets.sold_out %}
-        <div class="menu__register menu__register--sold-out">
-          sold-out
-        </div>
-      {% else %}
-        <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__register">
-          Acquista<br>
-          ora il tuo<br>
-          biglietto
-        </a>
+      {% if site.data.tickets.available %}
+        {% if site.data.tickets.sold_out %}
+          <div class="menu__register menu__register--sold-out">
+            sold-out
+          </div>
+        {% else %}
+          <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__register">
+            Acquista<br>
+            ora il tuo<br>
+            biglietto
+          </a>
+        {% endif %}
       {% endif %}
     </div>
   </div>
@@ -42,16 +44,16 @@
           </li>
         {% endif %}
         <li class="menu__item">
-          {% if site.data.tickets.sold_out %}
-            <span class="menu__button menu__button--sold-out">
-              Sold-out
-            </span>
-          {% else %}
-            <!--
-            <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button">
-              Biglietti
-            </a>
-            -->
+          {% if site.data.tickets.available %}
+            {% if site.data.tickets.sold_out %}
+              <span class="menu__button menu__button--sold-out">
+                Sold-out
+              </span>
+            {% else %}
+              <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button">
+                Biglietti
+              </a>
+            {% endif %}
           {% endif %}
         </li>
         <!--
