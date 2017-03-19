@@ -59,10 +59,10 @@ gold:
     - Your own flyer and/or gadget in folder
     - 3 tickets with 15% discount
   max: 8
-   list:
+  list:
      -
        url: https://www.workwave.com/?utm_source=angular
-       image: sponsor_workwave.jpg     
+       image: sponsor_workwave.jpg
 #       url: http://www.madisoft.it/?utm_source=phpday
 #       image: madisoft.svg
 
@@ -74,7 +74,7 @@ silver:
     - Your own flyer and/or gadget in folder (provided by you)
     - 3 tickets with 10% discount
   max: 4
-   list:
+  list:
       -
         url: http://www.ideato.it/?utm_source=angularday
         image: ideato.svg
