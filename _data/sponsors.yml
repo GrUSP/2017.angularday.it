@@ -59,11 +59,10 @@ gold:
     - Your own flyer and/or gadget in folder
     - 3 tickets with 15% discount
   max: 8
-#  list:
-#     -
-#       url: http://www.avanscoperta.it/?utm_source=phpday
-#       image: avanscoperta.svg
-#     -
+   list:
+     -
+       url: https://www.workwave.com/?utm_source=angular
+       image: sponsor_workwave.jpg     
 #       url: http://www.madisoft.it/?utm_source=phpday
 #       image: madisoft.svg
 
@@ -75,10 +74,10 @@ silver:
     - Your own flyer and/or gadget in folder (provided by you)
     - 3 tickets with 10% discount
   max: 4
-#  list:
-#     -
-#       url: http://www.neen.it/?utm_source=phpday
-#       image: neen.svg
+   list:
+      -
+        url: http://www.ideato.it/?utm_source=angularday
+        image: ideato.svg
 #     -
 #       url: https://www.siteground.it/?utm_source=phpday
 #       image: siteground.svg
