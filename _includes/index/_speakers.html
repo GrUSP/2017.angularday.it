@@ -1,11 +1,9 @@
-<!--
 <div class="speakers-title">
-  <div class="mega-info mega-info&#45;&#45;huge">
+  <div class="mega-info mega-info--huge">
     <div class="mega-info__number">8+</div>
     <div class="mega-info__text">Speaker</div>
   </div>
 </div>
--->
 
 
 <div class="limit">
@@ -32,10 +30,9 @@
       </div>
     {% endfor %}
 
-    <div class="speakers__column speakers__column--cfp" style="width:40%">
+    <div class="speakers__column speakers__column--cfp">
       {% if site.data.conference.call_for_paper %}
-        <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="button"
-           style="border-radius: 30px;width: 100%;text-align: center;color:white;background-color: #f45656;">
+        <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="button">
           Call for paper
         </a>
       {% endif %}

@@ -41,6 +41,9 @@
   @include element ('title') {
     font-family: $font-family-header;
     font-size: 38px;
+    color: $color-text-action;
+    text-shadow: 5px 5px 10px #222;
+
     margin-top: s(4);
 
 
@@ -50,26 +53,64 @@
     }
 
     @include media ('>=tablet-small') {
-      font-size: 80px;
+      font-size: 70px;
       margin-top: s(9);
     }
 
     @include media ('>=tablet-large') {
-      font-size: 120px;
-      margin-top: s(21);
+      font-size: 90px;
+      margin-top: s(35);
     }
 
     @include media ('>=desktop-large') {
-      font-size: 130px;
+      font-size: 90px;
+      margin-top: s(50);
     }
+  }
+
+  @include element ('titlepage') {
+    font-family: $font-family-header;
+    font-size: 38px;
+    //color: $color-text-action;
+    margin-top: s(10);
+/*
+
+    @include media ('>=mobile-large') {
+      font-size: 60px;
+      margin-top: s(7);
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 70px;
+      margin-top: s(9);
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 90px;
+      margin-top: s(35);
+    }
+
+    @include media ('>=desktop-large') {
+      font-size: 90px;
+      margin-top: s(50);
+    }*/
   }
 
   @include element ('where-when') {
     @include where-when;
     font-size: 40px;
+    color: $color-text-action;
+    text-shadow: 5px 5px 10px #222;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-top: 10px;
 
     @include media ('<tablet-small') {
       font-size: 20px;
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 30px;
     }
   }
 
