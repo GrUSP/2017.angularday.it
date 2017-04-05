@@ -40,11 +40,11 @@
 
   @include element ('title') {
     font-family: $font-family-header;
-    font-size: 18px;
+    font-size: 38px;
     color: $color-text-action;
     text-shadow: 5px 5px 10px #222;
 
-    margin-top: s(1);
+    margin-top: s(4);
 
 
     @include media ('>=mobile-large') {
@@ -70,9 +70,9 @@
 
   @include element ('titlepage') {
     font-family: $font-family-header;
-    font-size: 18px;
+    font-size: 38px;
     //color: $color-text-action;
-    margin-top: s(5);
+    margin-top: s(10);
 /*
 
     @include media ('>=mobile-large') {
