@@ -9,8 +9,8 @@
     "gulp": "github:gulpjs/gulp#4.0"
   },
   "scripts": {
-    "build": "./node_modules/.bin/gulp -S --config dustman-phpday.yml",
-    "dev": "./node_modules/.bin/gulp -S --config dustman-phpday.yml watch & jekyll serve",
+    "build": "./node_modules/.bin/gulp -S --config dustman-angularday.yml",
+    "dev": "./node_modules/.bin/gulp -S --config dustman-angularday.yml watch & jekyll serve",
     "setup": "cp ./node_modules/dustman/gulpfile.js ."
   },
   "repository": {
@@ -20,9 +20,9 @@
   "author": "Vittorio <me@vittoriovittori.com> (http://vit.to/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GrUSP/2017.cssday.it/issues"
+    "url": "https://github.com/GrUSP/2017.angularday.it/issues"
   },
-  "homepage": "https://github.com/GrUSP/2017.cssday.it#readme",
+  "homepage": "https://github.com/GrUSP/2017.angularday.it#readme",
   "dependencies": {
     "jquery": "^3.1.1",
     "moment": "^2.17.1"

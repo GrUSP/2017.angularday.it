@@ -31,6 +31,7 @@
     @include -menu-column;
     background-color: $color-menu-left;
     position: relative;
+    color: white;
 
     @include media ('<tablet-large') {
       display: none;
