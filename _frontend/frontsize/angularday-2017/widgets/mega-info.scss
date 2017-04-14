@@ -1,7 +1,7 @@
 @include block ('mega-info') {
   color: $new-color-text-info;
   display: inline-block;
-  font-size: 300px;
+  font-size: 15rem;
   font-weight: 700;
   line-height: 0.75;
   margin-top: s(2);
@@ -70,10 +70,6 @@
       @include media ('<mobile-large') {
         margin-top: s(2);
       }
-    }
-
-    @include media ('>=tablet-large') {
-      font-size: 300px;
     }
 
     @include media ('<tablet-large') {
