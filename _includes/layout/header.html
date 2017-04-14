@@ -8,28 +8,28 @@
         {{ site.data.conference.name }} {{ site.data.conference.year }}
       </h1>
       <nav class="header__menu">
-        <a href="#" id="open-menu" class="button button--menu">
+        <button id="open-menu" class="button button--menu" aria-controls="menu" aria-expanded="false" aria-haspopup="true" aria-label="Aziona navigazione">
           <i class="icon-minus"></i>
           <i class="icon-minus"></i>
           <i class="icon-minus"></i>
-        </a>
+        </button>
 
-        <div class="header__menu-desktop">
+        <div role="menubar" class="header__menu-desktop">
 
           {% if site.data.conference.talks_available %}
-            <a href="{{ site.baseurl }}/talks.html" class="button">
+            <a href="{{ site.baseurl }}/talks.html" class="button" role="menuitem">
               Talk
             </a>
           {% endif %}
           {% if site.data.conference.schedule_available %}
-            <a href="{{ site.baseurl }}/schedule.html" class="button">
+            <a href="{{ site.baseurl }}/schedule.html" class="button" role="menuitem">
               Programma
             </a>
           {% endif %}
-          <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="button">
+          <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="button" role="menuitem">
             Call for paper
           </a>
-          <a href="{{ site.baseurl }}/venue.html" class="button">
+          <a href="{{ site.baseurl }}/venue.html" class="button" role="menuitem">
             Dove siamo
           </a>
           <!--
@@ -44,7 +44,7 @@
                 sold out
               </div>
             {% else %}
-              <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">
+              <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register" role="menuitem">
                 Biglietti
               </a>
             {% endif %}

@@ -114,6 +114,7 @@
 
   @include modifier ('menu') {
     background-color: $color-background-dark;
+    border: 0;
     float: right;
     height: 38px;
     margin-left: s(2);
@@ -129,13 +130,16 @@
       color: $color-text-action;
       left: 9px;
       position: absolute;
+      top: 50%;
+      margin-top: -.5em;
 
       &:first-child {
-        top: 3px;
+        margin-top: calc(-.5em - 8px);
       }
 
       &:last-child {
-        bottom: 3px;
+        bottom: 1px;
+        top: auto;
       }
     }
   }

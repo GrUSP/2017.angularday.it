@@ -1,4 +1,4 @@
-<div id="menu" class="menu">
+<div role="menubar" id="menu" class="menu" tabindex="-1">
 
   <div class="menu__left">
     <div class="menu__conf">
@@ -38,7 +38,7 @@
       <ul class="menu__list">
         {% if site.data.conference.schedule_available %}
           <li class="menu__item">
-            <a href="{{ site.baseurl }}/schedule.html" class="menu__button">
+            <a href="{{ site.baseurl }}/schedule.html" class="menu__button" role="menuitem">
               Programma
             </a>
           </li>
@@ -50,7 +50,7 @@
                 Sold-out
               </span>
             {% else %}
-              <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button">
+              <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button" role="menuitem">
                 Biglietti
               </a>
             {% endif %}
@@ -58,40 +58,40 @@
         </li>
         <!--
         <li class="menu__item">
-          <a href="{{ site.baseurl }}/sponsor.html" class="menu__button">
+          <a href="{{ site.baseurl }}/sponsor.html" class="menu__button" role="menuitem">
             Sponsor
           </a>
         </li>
         -->
         {% if site.data.conference.talks_available %}
           <li class="menu__item">
-            <a href="{{ site.baseurl }}/talks.html" class="menu__button">
+            <a href="{{ site.baseurl }}/talks.html" class="menu__button" role="menuitem">
               Talk
             </a>
           </li>
         {% endif %}
         <li class="menu__item">
-          <a href="{{ site.baseurl }}/venue.html" class="menu__button">
+          <a href="{{ site.baseurl }}/venue.html" class="menu__button" role="menuitem">
             Dove siamo
           </a>
         </li>
         <li class="menu__item">
-          <a href="{{ site.baseurl }}/#newsletter" class="menu__button">
+          <a href="{{ site.baseurl }}/#newsletter" class="menu__button" role="menuitem">
             Newsletter
           </a>
         </li>
         <li class="menu__item">
-          <a href="http://{{ site.data.conference.year }}.jsday.it" target="_blank" class="menu__button">
+          <a href="http://{{ site.data.conference.year }}.jsday.it" target="_blank" class="menu__button" role="menuitem">
             jsDay
           </a>
         </li>
         <li class="menu__item">
-          <a href="http://{{ site.data.conference.year }}.reactjsday.it" target="_blank" class="menu__button">
+          <a href="http://{{ site.data.conference.year }}.reactjsday.it" target="_blank" class="menu__button" role="menuitem">
             ReactJS day
           </a>
         </li>
         <li class="menu__item">
-          <a href="http://{{ site.data.conference.year }}.universaljsday.com" target="_blank" class="menu__button">
+          <a href="http://{{ site.data.conference.year }}.universaljsday.com" target="_blank" class="menu__button" role="menuitem">
             UniversalJS Day
           </a>
         </li>
