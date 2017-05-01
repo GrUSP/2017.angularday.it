@@ -1,10 +1,10 @@
 # place images in:
 # img/conf-name/speaker/file.jpg
 list:
-#  -
-#    id: vasco-duarte
-#    description:
-#    image: vasco-duarte.png
-#    first_name: Vasco
-#    last_name: Duarte
-#    twitter: duarte_vasco
+-
+  id: giorgio-sironi
+  description:
+  image: giorgio-sironi.jpg
+  first_name: Giorgio
+  last_name: Sironi
+  twitter: giorgiosironi

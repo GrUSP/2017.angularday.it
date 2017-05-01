@@ -1,5 +1,6 @@
 -
-  speaker_id: rasmus-lerdorf
+  speaker_id: giorgio-sironi
+  image: giorgio-sironi.jpg
   title: Deploying PHP 7
   keynote: true
   extract: >
@@ -12,7 +13,7 @@
   speaker_id:
     - nicolas-cage
     - rasmus-lerdorf
-  image: talk-image.jpg
+  image: gemma-cameron.png
   title: Your API is a UI
   extract: >
     This talk is intermediate level and should have a bit of something
