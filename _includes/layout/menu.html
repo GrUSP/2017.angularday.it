@@ -56,13 +56,13 @@
             {% endif %}
           {% endif %}
         </li>
-        <!--
+        {% if site.data.conference.call_for_sponsor %}
         <li class="menu__item">
           <a href="{{ site.baseurl }}/sponsor.html" class="menu__button" role="menuitem">
             Sponsor
           </a>
         </li>
-        -->
+        {% endif %}
         {% if site.data.conference.talks_available %}
           <li class="menu__item">
             <a href="{{ site.baseurl }}/talks.html" class="menu__button" role="menuitem">

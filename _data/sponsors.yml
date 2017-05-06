@@ -20,31 +20,29 @@ call_for_sponsor: true
 #  max: 1
 #  list:
 
-diamond:
+main:
   price: € 5,000
   offer:
-    - 1 dedicated session (30 mins max)
-    - Your logo on conference website
-    - Your logo on conference rollups
-    - Your own rollups in two rooms
-    - Stand (table 2m x 1m)
-    - Your own flyer and/or gadget in folder
-    - 2 free tickets
-    - 5 tickets with 20% discount
-  max: 2
+    - Banner sul sito
+    - Possibilità di tenere un talk tecnico (sono escluse le tematiche commerciali). Il talk dovrà essere preapprovato dagli organizzatori.
+    - Pubblicità nelle comunicazioni pre-evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Posizionamento del vostro roll-up nella sala
+    - 5 biglietti gratuiti
+    - Banchetto principale 2m x 1m in sala o nella hall
+  max: 1
   list:
 
 platinum:
   price: € 3,000
   offer:
-    - Your logo on conference website
-    - Your logo on conference rollups
-    - Your own rollup in one room (of your choice)
-    - Stand (table 1m x 1m)
-    - Your own flyer and/or gadget in folder
-    - 1 free ticket
-    - 5 tickets with 15% discount
-  max: 4
+    - Banner sul sito
+    - Pubblicità nelle comunicazioni pre-evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Posizionamento del vostro roll-up nella sala
+    - 4 biglietti gratuiti
+    - Banchetto 1m x 1m in sala o nella hall
+  max: 1
   list:
 #    -
 #      url: http://www.ideato.it/?utm_source=phpday
@@ -53,11 +51,11 @@ platinum:
 gold:
   price: € 1,000
   offer:
-    - Your logo on conference website
-    - Your logo on conference rollups
-    - Your own rollup in one room (chosen by the organization)
-    - Your own flyer and/or gadget in folder
-    - 3 tickets with 15% discount
+    - Banner sul sito
+    - Pubblicità nelle comunicazioni pre-evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Posizionamento del vostro roll-up nella sala
+    - 3 biglietti gratuiti
   max: 8
   list:
      -
@@ -69,15 +67,12 @@ gold:
 silver:
   price: € 500
   offer:
-    - Your logo on conference website
-    - Your logo on conference rollups
-    - Your own flyer and/or gadget in folder (provided by you)
-    - 3 tickets with 10% discount
-  max: 4
+    - Banner sul sito
+    - Pubblicità nelle comunicazioni pre-evento
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 2 biglietti gratuiti
+  max: 16
   list:
-      -
-        url: http://www.ideato.it/?utm_source=angularday
-        image: ideato.svg
 #     -
 #       url: https://www.siteground.it/?utm_source=phpday
 #       image: siteground.svg
@@ -85,7 +80,8 @@ silver:
 bronze:
   price: € 300
   offer:
-    - Your logo on conference website
-    - 2 tickets with 10% discount
-  max: 8
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 1 biglietto gratuito
+  max: 32
  # list:

@@ -32,11 +32,11 @@
           <a href="{{ site.baseurl }}/venue.html" class="button" role="menuitem">
             Dove siamo
           </a>
-          <!--
+          {% if site.data.conference.call_for_sponsor %}
           <a href="{{ site.baseurl }}/sponsor.html" class="button button--no-tablet-small">
-            Sponsors
+            Sponsor
           </a>
-          -->
+          {% endif %}
 
           {% if site.data.tickets.available %}
             {% if site.data.tickets.sold_out %}
