@@ -1,10 +1,31 @@
 # place images in:
 # img/conf-name/speaker/file.jpg
 list:
--
-  id: giorgio-sironi
-  description:
-  image: giorgio-sironi.jpg
-  first_name: Giorgio
-  last_name: Sironi
-  twitter: giorgiosironi
+  -
+    id: gianmarcotoso
+    description:
+    image: toso.png
+    first_name: GianMarco
+    last_name: Toso
+    twitter: gianmarcotoso
+  -
+    id: apomic80
+    description:
+    image: apomic.jpg
+    first_name: Michele
+    last_name: Aponte
+    twitter: apomic80
+  -
+    id: michelmurabito
+    description:
+    image: michelmurabito.jpg
+    first_name: Michel
+    last_name: Murabito
+    twitter: michelmurabito
+  -
+    id: jiayi-hu
+    description:
+    image: jiayi.jpg
+    first_name: Jiayi
+    last_name: Hu
+    twitter: jiayi_ghu
