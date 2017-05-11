@@ -1,23 +1,47 @@
 -
-  speaker_id: giorgio-sironi
-  image: giorgio-sironi.jpg
-  title: Deploying PHP 7
+  speaker_id: gianmarcotoso
+  image: toso.png
+  title: State Management with Redux
   keynote: true
   extract: >
-    This talk is intermediate level and should have a bit of something
-    for everyone whether you’re building a standard pipeline (non-docker)
-    or already have a pipeline and looking to see how docker will make it even stronger.
-    I will demonstrate how building pipe- lines with Docker differs from
-    traditional pipelines, what steps are involved in migrating.
+    Un'introduzione di alto livello a Redux e una panoramica su come utilizzarlo con Angular.
+-
+  speaker_id: apomic80
+  image: apomic.jpg
+  title: Un framework sul framework, generare una SPA dinamicamente in Angular
+  extract: >
+    Avevamo la necessità di realizzare il pannello di amministrazione della nuova 
+    versione del nostro CMS in modo che fosse una SPA dinamica e pluggabile a 
+    partire dalle informazioni che arrivano dal back-end: abbiamo scelto Angular 
+    e abbiamo creato dei componenti che dinamicamente generano la UI sulla base 
+    dello schema JSON fornito dal backend. In questa sessione vedremo come spingere 
+    Angular a un tale livello di astrazione e come Typescript e RxJS rendono il 
+    tutto semplice e manutenibile.
 -
   speaker_id:
-    - nicolas-cage
-    - rasmus-lerdorf
-  image: gemma-cameron.png
-  title: Your API is a UI
+    - michelmurabito
+  image: michelmurabito.jpg
+  title: Superheroes apps con Angular e Firebase
   extract: >
-    This talk is intermediate level and should have a bit of something
-    for everyone whether you’re building a standard pipeline (non-docker)
-    or already have a pipeline and looking to see how docker will make it even stronger.
-    I will demonstrate how building pipe- lines with Docker differs from
-    traditional pipelines, what steps are involved in migrating.
+    Quale database sceglierebbe Bruce Wayne? Come Tony Stark gestirebbe lo storage? 
+    J.A.R.V.I.S. come automatizzerebbe alcune operazioni sui dati?
+    Nel 2017, vediamo insieme come realizzare applicazioni realtime con AngularJS 
+    e Firebase per imparare a volare anche senza super poteri... O quasi...
+-
+  speaker_id:
+    - jiayi-hu
+  image: jiayi.jpg
+  title: Automatic UI library documentation with Typescript AST
+  extract: >
+    La documentazione è una fase fondamentale dello sviluppo, in particolare di 
+    una libreria di componenti UI condivisa e utilizzata da diversi team o persone. 
+    Tuttavia è estremamente tedioso ed error-prone mantenerla consistente, corretta 
+    ed aggiornata.
+
+    Uno dei vantaggi dell'utilizzo di Typescript è invece proprio avere codice 
+    autodocumentato, che fornisca informazioni sul tipo di dati che il componente 
+    può ricevere e fornire. 
+
+    In questo talk verrà spiegato e mostrato cosa sia un Abstract Syntax Tree di un linguaggio, 
+    in particolare di Typescript, e come esso possa essere sfruttato per generare 
+    automaticamente la documentazione di un set di componenti UI scritti in Angular e Typescript.
