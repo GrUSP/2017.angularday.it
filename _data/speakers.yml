@@ -8,13 +8,13 @@ list:
     first_name: GianMarco
     last_name: Toso
     twitter: gianmarcotoso
-  #-
-  #  id: apomic80
-  #  description:
-  #  image: apomic.jpg
-  #  first_name: Michele
-  #  last_name: Aponte
-  #  twitter: apomic80
+  -
+    id: apomic80
+    description:
+    image: apomic.jpg
+    first_name: Michele
+    last_name: Aponte
+    twitter: apomic80
   -
     id: michelmurabito
     description:

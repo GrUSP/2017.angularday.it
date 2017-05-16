@@ -1,5 +1,5 @@
 {
-  "name": "phpday",
+  "name": "angularday",
   "version": "0.0.1",
   "description": "Conference site",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GrUSP/2017.cssday.it.git"
+    "url": "git+https://github.com/GrUSP/2017.angularday.it.git"
   },
   "author": "Vittorio <me@vittoriovittori.com> (http://vit.to/)",
   "license": "MIT",

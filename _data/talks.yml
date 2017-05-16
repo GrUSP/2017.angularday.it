@@ -2,21 +2,21 @@
   speaker_id: gianmarcotoso
   image: toso.png
   title: State Management with Redux
-  keynote: true
+  keynote: false
   extract: >
     Un'introduzione di alto livello a Redux e una panoramica su come utilizzarlo con Angular.
-#-
-#  speaker_id: apomic80
-#  image: apomic.jpg
-#  title: Un framework sul framework, generare una SPA dinamicamente in Angular
-#  extract: >
-#    Avevamo la necessità di realizzare il pannello di amministrazione della nuova
-#    versione del nostro CMS in modo che fosse una SPA dinamica e pluggabile a
-#    partire dalle informazioni che arrivano dal back-end: abbiamo scelto Angular
-#    e abbiamo creato dei componenti che dinamicamente generano la UI sulla base
-#    dello schema JSON fornito dal backend. In questa sessione vedremo come spingere
-#   Angular a un tale livello di astrazione e come Typescript e RxJS rendono il
-#   tutto semplice e manutenibile.
+-
+  speaker_id: apomic80
+  image: apomic.jpg
+  title: Un framework sul framework, generare una SPA dinamicamente in Angular
+  extract: >
+    Avevamo la necessità di realizzare il pannello di amministrazione della nuova
+    versione del nostro CMS in modo che fosse una SPA dinamica e pluggabile a
+    partire dalle informazioni che arrivano dal back-end: abbiamo scelto Angular
+    e abbiamo creato dei componenti che dinamicamente generano la UI sulla base
+    dello schema JSON fornito dal backend. In questa sessione vedremo come spingere
+    Angular a un tale livello di astrazione e come Typescript e RxJS rendono il
+    tutto semplice e manutenibile.
 -
   speaker_id:
     - michelmurabito
