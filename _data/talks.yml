@@ -48,7 +48,7 @@
 -
   speaker_id:
     - maksim-sinik
-  image: maksim-sinik.jpg
+  image: maksim-sinik.png
   title: Reactive programming in Angular con RxJS
   extract: >
     RxJS è una libreria che permette di lavorare con stream asincroni di dati. In questo talk introdurremo i concetti di base della libreria e come possiamo usarla con profitto in applicazioni Angular.
