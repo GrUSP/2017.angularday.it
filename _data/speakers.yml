@@ -29,3 +29,24 @@ list:
     first_name: Jiayi
     last_name: Hu
     twitter: jiayi_ghu
+  -
+    id: maksim-sinik
+    description:
+    image: maksim.jpg
+    first_name: Maksim
+    last_name: Sinik
+    twitter:
+  -
+    id: michele-stieven
+    description:
+    image: michele-stieven.jpg
+    first_name: Michele
+    last_name: Stieven
+    twitter:
+  -
+    id: alessandro-giorgetti
+    description:
+    image: alessandro-giorgetti.jpg
+    first_name: Alessandro
+    last_name: Giorgetti
+    twitter:

@@ -8,7 +8,7 @@
 -
   speaker_id: apomic80
   image: apomic.jpg
-  title: Un framework sul framework, generare una SPA dinamicamente in Angular
+  title: "Un framework sul framework: generare una SPA dinamicamente in Angular"
   extract: >
     Avevamo la necessità di realizzare il pannello di amministrazione della nuova
     versione del nostro CMS in modo che fosse una SPA dinamica e pluggabile a
@@ -45,3 +45,47 @@
     In questo talk verrà spiegato e mostrato cosa sia un Abstract Syntax Tree di un linguaggio,
     in particolare di Typescript, e come esso possa essere sfruttato per generare
     automaticamente la documentazione di un set di componenti UI scritti in Angular e Typescript.
+-
+  speaker_id:
+    - maksim-sinik
+  image: maksim-sinik.jpg
+  title: Reactive programming in Angular con RxJS
+  extract: >
+    RxJS è una libreria che permette di lavorare con stream asincroni di dati. In questo talk introdurremo i concetti di base della libreria e come possiamo usarla con profitto in applicazioni Angular.
+    Nello specifico parleremo:
+    - Concetti base degli Observable
+    - Subjects e Multicasting Operators
+    - Principali operatori
+    - Esempi pratici in angular
+-
+  speaker_id:
+    - alessandro-giorgetti
+  image:
+  title: "Angular Testing: ma devo proprio farlo?!"
+  extract: >
+    Testare una applicazione Angular non è sempre semplice ed immediato, soprattutto al crescere della complessità dell'applicazione stessa.
+    Tuttavia è una pratica che non possiamo più permetterci di trascurare: è finito il tempo dei 'banali' data-entry!
+    Conoscere le armi a nostra disposizione è fondamentale per ridurre al minimo i difetti presenti nelle applicazioni: diverse technologie, tools e test frameworks interagiscono e si integrano tra di loro a costituire un ambiente di testing stabile e ben definito.
+    Possiamo scegliere quali strumenti utilizzare a seconda della tipologia di test e dello scenario da verificare: dal singolo componente / direttiva, al servizio fino al testing dell'intero sistema.
+    Vedremo come realizzare Unit Test ed End-to-End test in Angular utilizzando le utility messe a disposizione dal test framework, seguendo alcune best practice, affrontando diversi scenari ed evitando alcune trappole.
+-
+  speaker_id:
+    - michele-stieven
+  image: michele-stieven.jpg
+  title: Reactive Forms Overview
+  extract: >
+    Durante questa sessione analizziamo i costrutti e le nuove funzionalità dei Reactive Forms creando un form di registrazione:
+    - Introduzione ai Reactive Forms e differenze con i template-driven form
+    - Illustrazione di concetti principali del modulo: FormControl, FormGroup, FormArray, AbstractControl.
+    - Form e data model
+    - Gestione stato di Form e FormControl: touched, dirty, invalid
+    - Manipolazione di un form: setValue, patchValue, reset.
+    - Introduzione a FormBuilder
+    - Angular Built-in Validators e gestione errori
+    - Custom Validators
+-
+  speaker_id:
+    - tba
+  image: tba.jpg
+  title: T. B. A.
+  extract: >

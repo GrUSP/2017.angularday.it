@@ -6,7 +6,7 @@ where_when: "Verona - 16 giugno 2017: conferenza <br /> 15 giugno: corso avanzat
 year: 2017
 since: 2017
 call_for_paper_url: https://docs.google.com/forms/d/e/1FAIpQLSekLIk4oG_CnsihzrPHUURyg9_TlemHmtPXyo4pQEYe07h_cg/viewform
-call_for_paper: true
+call_for_paper: false
 call_for_sponsor: true
 talks_available: true
-schedule_available: false
+schedule_available: true
