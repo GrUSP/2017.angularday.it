@@ -35,7 +35,7 @@ list:
     image: maksim.jpg
     first_name: Maksim
     last_name: Sinik
-    twitter:
+    twitter: maksimsinik
   -
     id: michele-stieven
     description:
