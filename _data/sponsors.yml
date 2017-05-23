@@ -73,9 +73,9 @@ silver:
     - 2 biglietti gratuiti
   max: 16
   list:
-#     -
-#       url: https://www.siteground.it/?utm_source=phpday
-#       image: siteground.svg
+    -
+      url: https://www.accenture.com/it-it/new-applied-now
+      image: accenture.svg
 
 bronze:
   price: € 300
