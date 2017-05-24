@@ -37,10 +37,12 @@
       {% else %}
         {% for speaker in site.data.speakers.list %}
           {% if speaker.id == speaker_id %}
-            <span class="talk__speaker-name">
-              {{ speaker.first_name }} {{ speaker.last_name }}
-            </span>
-            {% break %}
+            {% if speaker.twitter %}
+              <span class="talk__speaker-name">
+                {{ speaker.first_name }} {{ speaker.last_name }}
+              </span>
+              {% break %}
+            {% endif %}
           {% endif %}
         {% endfor %}
       {% endif %}

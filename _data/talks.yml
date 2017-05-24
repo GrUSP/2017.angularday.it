@@ -60,7 +60,7 @@
 -
   speaker_id:
     - alessandro-giorgetti
-  image:
+  image: alessandro-giorgetti.png
   title: "Angular Testing: ma devo proprio farlo?!"
   extract: >
     Testare una applicazione Angular non è sempre semplice ed immediato, soprattutto al crescere della complessità dell'applicazione stessa.
