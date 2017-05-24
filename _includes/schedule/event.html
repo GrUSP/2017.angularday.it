@@ -14,6 +14,13 @@
   <td class="schedule__cell schedule__cell--event" {% if include.fill %} colspan="3" {% endif %}>
     <div class="schedule__title">
       {{ include.title }}
+      <div class="schedule__detail">
+        {% if include.name %}
+          <span class="schedule__speaker">
+            {{ include.name }}
+          </span>
+        {% endif %}
+      </div>
     </div>
   </td>
 </tr>
