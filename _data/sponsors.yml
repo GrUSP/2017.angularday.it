@@ -84,4 +84,8 @@ bronze:
     - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
     - 1 biglietto gratuito
   max: 32
- # list:
+  list:
+    -
+      url: https://www.spindox.it/
+      image: spindox.svg
+
