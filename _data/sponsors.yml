@@ -86,6 +86,9 @@ bronze:
   max: 32
   list:
     -
+      url: http://www.blexin.com/
+      image: blexin.svg
+    -
       url: https://www.spindox.it/
       image: spindox.svg
 
