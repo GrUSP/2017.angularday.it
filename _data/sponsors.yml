@@ -76,6 +76,9 @@ silver:
     -
       url: https://www.accenture.com/it-it/new-applied-now
       image: accenture.svg
+    -
+      url: http://www.trueblue.it/it
+      image: trueblue.svg
 
 bronze:
   price: € 300
@@ -91,4 +94,7 @@ bronze:
     -
       url: https://www.spindox.it/
       image: spindox.svg
+    -
+      url: http://www.datalytics.it/job
+      image: datalytics.svg
 
