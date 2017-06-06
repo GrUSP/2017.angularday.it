@@ -85,7 +85,12 @@
     - Custom Validators
 -
   speaker_id:
-    - tba
-  image: tba.jpg
-  title: T. B. A.
+    - alessandro-avolio
+  image: alessandro-avolio.jpg
+  title: Usare Angular su un progetto da 3.5 milioni di euro
   extract: >
+    Sappiamo tutti sviluppare in 5 minunti un piccolo progetto con Angular CLI. Ma come cambiano le cose quando si passa
+    su un progetto reale e di grandi dimensioni? In questo talk vi parlerò di alcuni problemi che il team in cui lavoro
+    ha dovuto affrontare e le soluzioni che abbiamo adottato per diventare velocissimi, flessibili e bravi a scrivere
+    codice facile da mantenere. Vedremo quindi come gestire l’autenticazione, realizzare complessi componenti riusabili,
+    disegnare pagine di ricerca e form componibili, gestire i flussi interni all’applicazione.

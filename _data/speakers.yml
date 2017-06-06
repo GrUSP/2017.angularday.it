@@ -50,3 +50,10 @@ list:
     first_name: Alessandro
     last_name: Giorgetti
     twitter:
+  -
+    id: alessandro-avolio
+    description:
+    image: alessandro-avolio.jpg
+    first_name: Alessandro
+    last_name: Avolio
+    twitter:
