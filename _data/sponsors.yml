@@ -60,9 +60,7 @@ gold:
   list:
      -
        url: https://www.workwave.com/?utm_source=angular
-       image: workwave.jpg
-#       url: http://www.madisoft.it/?utm_source=phpday
-#       image: madisoft.svg
+       image: workwave.png
 
 silver:
   price: € 500
@@ -89,6 +87,9 @@ bronze:
   max: 32
   list:
     -
+      url: http://www.jetbrains.com/
+      image: jetbrains.svg
+    -
       url: http://www.blexin.com/
       image: blexin.svg
     -
@@ -97,4 +98,3 @@ bronze:
     -
       url: http://www.datalytics.it/job
       image: datalytics.svg
-
