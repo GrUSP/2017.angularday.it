@@ -49,7 +49,7 @@ list:
     image: alessandro-giorgetti.png
     first_name: Alessandro
     last_name: Giorgetti
-    twitter:
+    twitter: a_giorgetti
   -
     id: alessandro-avolio
     description:
