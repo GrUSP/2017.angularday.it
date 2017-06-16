@@ -4,12 +4,7 @@
   display: block;
   margin-bottom: s(8);
 
-  @include media ('<tablet-small') {
-    display: none;
-  }
-
   @include modifier ('mobile') {
-    display: none;
     @include element ('head') {
       @include modifier ('upper') {
         width: 100%;
